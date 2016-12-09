@@ -1,0 +1,28 @@
+<! DOCTYPE html>
+        <head>
+                <title>{{ title }}</title>
+                <META HTTP-EQUIV="refresh" CONTENT="5">
+        </head>
+
+        <body style="background-color: LightSlateGray">
+				<header style="font-family: Comic Sans MS; color: black; text-align: right"> by Sudhansh, Sneha, Sarath</header>
+				
+								
+                <h1 style="font-family: Comic Sans MS; color: brown; text-align: center; font-size: 56px"><strong>HOME MONITORING</strong> using Raspberry Pi</h1>
+				
+				<div id="container" style="width:100%;">  
+				
+					<div id="left" style="float:left; width:50%;">
+						<h1 style="font-family: Comic Sans MS; color: white;">Termperature: {{ temp }} deg C</h1>
+						<br/><br/>
+						<h1 style="font-family: Comic Sans MS; color: white;">Humidity: {{ hum }} %</h1>
+					</div> 
+					
+					<div id="right" style="float:right; width:50%;">
+						<h2 style="font-family: Comic Sans MS; color: white;">Image</h2>
+						<img src="/static/test.jpg">
+					</div>                   
+				</div>
+								
+        </body>
+</html>
